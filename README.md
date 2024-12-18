@@ -1,2 +1,2 @@
 # MIC-AI
-MIC-AI Series
+Advantech MIC-AI Product Series
