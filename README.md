@@ -1,5 +1,5 @@
 # MIC-AI
-##Advantech MIC-AI Product Series
+## Advantech MIC-AI Product Series
 | Products      | MIC BSP Package          | How to Reflash BSP |
 |---------------|--------------------------|--------------------|
 | MIC-710AI   | [MIC-710AI_Nano_4.6_V1.0](https://www.dropbox.com/scl/fo/dr6zcn9vfq8eokdh9uug0/AJhANbdXfoBxSA7g8ZL_rRQ/MIC-710AI/MIC-710AI_Nano_4.6_V1.0_DiskFlash?dl=0&rlkey=css95k1m3b0698nn4wrvwisva&subfolder_nav_tracking=1) | [SOP](https://www.dropbox.com/scl/fo/dr6zcn9vfq8eokdh9uug0/AO0cOUE36ilGHkN2oXdDnKE/MIC-710AI/MIC-710AI_Nano_4.6_V1.0_DiskFlash/MIC-710AI_Nano_4.6_V1.0_DiskFlash_SOP.pdf?rlkey=css95k1m3b0698nn4wrvwisva&dl=0) |
