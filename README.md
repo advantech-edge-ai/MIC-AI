@@ -90,7 +90,7 @@ DeepSeek is a powerful AI model that can be installed and deployed on MIC-AI dev
    ```sh
    curl -fsSL https://ollama.ai/install.sh > install.sh
    sudo sh install.sh
-   ollama –versiono
+   ollama –version
    export OLLAMA_HOST=127.0.0.1:11434
    ollama pull deepseek-r1:1.5b
    ollama run deepseek-r1:1.5b --keepalive 1h --verbose
