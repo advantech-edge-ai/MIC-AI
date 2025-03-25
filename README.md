@@ -1,4 +1,5 @@
-![](https://advcloudfiles.advantech.com/cms/b57dfa32-3b50-46fc-8930-6475dd67fd3e/Content/og.jpg)
+
+![18_NVIDIA-Jetston_01](https://github.com/user-attachments/assets/0c198269-e9b9-460a-833b-e9d7729e297b)
 
 # Advantech MIC-AI Product Series
 
