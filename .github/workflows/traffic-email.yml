@@ -32,7 +32,8 @@ jobs:
           fi
           echo "timestamp,count,uniques" > "$OUT"
           # echo "$JSON" | jq -r '.views[] | [ .timestamp, .count, .uniques ] | @csv' >> "$OUT"
-          echo "$JSON" | jq -r --arg t "$TYPE" '.[$t][] | [ .timestamp, (.count|tostring), (.uniques|tostring) ] | @csv' >> "$OUT"
+          # echo "$JSON" | jq -r --arg t "$TYPE" '.[$t][] | [ .timestamp, (.count|tostring), (.uniques|tostring) ] | @csv' >> "$OUT"
+          echo "$JSON" | jq -r --arg owner "$OWNER" --arg repo "$REPO" --arg t "$TYPE" '.[$t][]? | [ $owner, $repo, .timestamp, (.count|tostring), (.uniques|tostring) ] | @csv' >> "$OUT"
           ls -l "$OUT"
           BASH
           chmod +x gh_traffic_to_csv.sh
