@@ -35,8 +35,8 @@ jobs:
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com
-          server_port: 587
-          secure: false          # <- IMPORTANT: STARTTLS, not SSL-on-connect
+          server_port: 465
+          secure: true          # <- IMPORTANT: STARTTLS, not SSL-on-connect
           username: ${{ secrets.SAE_GMAIL_ACC }}       # e.g., youraddress@gmail.com
           password: ${{ secrets.SAE_GMAIL_PWD }}   # Gmail App Password
           subject: 'edge_agent daily traffic'
