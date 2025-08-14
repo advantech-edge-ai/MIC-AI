@@ -36,14 +36,15 @@ jobs:
         with:
           server_address: smtp.gmail.com
           server_port: 587
+          secure: false          # <- IMPORTANT: STARTTLS, not SSL-on-connect
           username: ${{ secrets.SAE_GMAIL_ACC }}       # e.g., youraddress@gmail.com
           password: ${{ secrets.SAE_GMAIL_PWD }}   # Gmail App Password
           subject: 'edge_agent daily traffic'
           to: sl.lin@advantech.com.tw
           from: ${{ secrets.SAE_GMAIL_ACC }}
-          secure: true
           attachments: traffic_views.csv
           html_body: |
             <p>Hi,</p>
             <p>Attached is the latest <code>advantech-EdgeAI/edge_agent</code> traffic CSV.</p>
             <p>— GitHub Actions</p>
+
