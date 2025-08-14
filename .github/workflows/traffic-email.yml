@@ -38,7 +38,7 @@ jobs:
           server_port: 465
           secure: true          # <- IMPORTANT: STARTTLS, not SSL-on-connect
           username: ${{ secrets.SAE_GMAIL_ACC }}       # e.g., youraddress@gmail.com
-          password: ${{ secrets.SAE_GMAIL_PWD }}   # Gmail App Password
+          password: ${{ secrets.SAE_GMAIL_APP_PWD }}   # Gmail App Password
           subject: 'edge_agent daily traffic'
           to: sl.lin@advantech.com.tw
           from: ${{ secrets.SAE_GMAIL_ACC }}
