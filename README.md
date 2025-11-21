@@ -7,7 +7,19 @@ Advantech AI Edge Solutions – MIC Jetson series, accelerated by full NVIDIA® 
 
 ## Resources for MIC-AI Product Series
 
-Partners and users of the MIC-AI Product Series can find comprehensive resources—including BSPs, reflashing SOPs, release notes, and more—in this repository's [wiki](https://github.com/advantech-edge-ai/MIC-AI/wiki).
+Partners and users of the MIC-AI Product Series can find comprehensive resources—including BSPs, reflashing SOPs, release notes, and more—in this repository's wiki.
+
+👉 Explore the Wiki
+
+  <a href="https://github.com/advantech-edge-ai/MIC-AI/wiki">
+     <img src="https://img.shields.io/badge/Wiki-Please%20Click-004280?style=for-the-badge&logo=wikipedia" alt="Wiki" width="200">
+  </a>   
+
+👉 Find out common questions in FAQ
+
+<a href="https://github.com/advantech-edge-ai/MIC-AI/wiki/99.00-FAQ">
+   <img src="https://img.shields.io/badge/FAQ-Please%20Click-004280?style=for-the-badge&logo=wikipedia" alt="FAQ" width="200">
+</a>
 
 # Work with Advantech Solution Pilot
 
