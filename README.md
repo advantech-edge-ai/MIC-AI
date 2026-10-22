@@ -12,33 +12,28 @@ Partners and users of the MIC-AI Product Series can find comprehensive resources
 👉 Explore the Wiki
 
   <a href="https://github.com/advantech-edge-ai/MIC-AI/wiki">
-     <img src="https://img.shields.io/badge/Wiki-Please%20Click-004280?style=for-the-badge&logo=wikipedia" alt="Wiki" width="200">
+     <img src="https://img.shields.io/badge/Wiki-Please%20Click-004280?style=for-the-badge" alt="Wiki" width="200">
   </a>   
 
 👉 Find out common questions in FAQ
 
-<a href="https://github.com/advantech-edge-ai/MIC-AI/wiki/99.00-FAQ">
-   <img src="https://img.shields.io/badge/FAQ-Please%20Click-004280?style=for-the-badge&logo=wikipedia" alt="FAQ" width="200">
+<a href="https://github.com/advantech-edge-ai/MIC-AI/issues?q=is%3Aissue+label%3AFAQ">
+   <img src="https://img.shields.io/badge/FAQ-Please%20Click-004280?style=for-the-badge" alt="FAQ" width="200">
 </a>
 
 # Work with Advantech Solution Pilot
 
-Advantech Solution Pilot is an AI platform built on the MIC-AI series, offering an intuitive and flexible SDK compatible with JetPack 6.0 and above. The platform includes:
+Advantech Solution Pilot is a set of software services built on the MIC-AI series, offering an intuitive and flexible SDK compatible with JetPack 6.0 and above. The set includes:
 
-- **Edge Agent**: A user-friendly drag-and-drop interface that supports integration with multi-modal LLMs, Text-To-Speech (TTS), prompt templates, and digital input/output sensors.
+- [**Edge Agent**](https://github.com/advantech-EdgeAI/Edge_Agent): An interactive sandbox built on NVIDIA Agent Studio. With a simple drag-and-drop interface, you can connect multimodal LLMs, Text-To-Speech (TTS), and live sensors.
 
-   <a href="https://github.com/advantech-EdgeAI/Edge_Agent">
-    <img src="https://img.shields.io/badge/Edge_Agent_Repository-004280?style=for-the-badge&logo=github" alt="AI_NVR Repository" width="300">
-   </a>
+- [**VSS Live Insight and Alert**](https://github.com/advantech-EdgeAI/VSS-Live-Insight-and-Alert): A web application built on NVIDIA VSS 3.2.1 for Jetson AGX Thor. It uses a vision language model (VLM) to watch live RTSP streams and uploaded videos, describes each video segment, and sends real-time alerts when the events you describe happen. Everything, including a local LLM, is installed once and then runs fully offline.
 
-- **AMR DevKit**: Deploys intelligent, self-navigating robots for automation in industries like manufacturing, logistics, healthcare, and more.
+- [**AMR DevKit**](https://github.com/advantech-EdgeAI/AMR_DevKit): A ready-to-use hardware and software package for autonomous mobile robots on the MIC-732-AO (NVIDIA Jetson AGX Orin). It comes with pre-configured ROS 2 drivers for GMSL depth cameras, 2D LiDAR, and fisheye cameras. With a few commands, your sensors and coordinate system are ready for SLAM and navigation.
 
-   <a href="https://github.com/advantech-EdgeAI/AMR_DevKit">
-    <img src="https://img.shields.io/badge/AMR_DevKit_Repository-004280?style=for-the-badge&logo=github" alt="AI_NVR Repository" width="300">
-   </a>
+- [**AI NVR**](https://github.com/advantech-EdgeAI/AI_NVR): A video analytics application built on NVIDIA Metropolis Microservices for Jetson. It includes object detection, face recognition, and tools such as the Video Storage Toolkit (VST).
 
-- **AI NVR**: Accelerated by NVIDIA’s advanced deep learning AI video analytics, it features capabilities like object detection, face recognition, and license plate recognition.
-   
-   <a href="https://github.com/advantech-EdgeAI/AI_NVR">
-    <img src="https://img.shields.io/badge/AI_NVR_Repository-004280?style=for-the-badge&logo=github" alt="AI_NVR Repository" width="300">
-   </a>
+> [!TIP]
+> Want to get the latest news and updates on Advantech Solution Pilot? [Subscribe to our newsletter](https://subscribe.advantechsae.online/)
+
+<img width="2804" height="561" alt="image" src="https://github.com/user-attachments/assets/65e66a93-82c3-4e29-ad29-df2a84383e28" />
